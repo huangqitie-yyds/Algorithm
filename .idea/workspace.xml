@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b46b6660-5bc0-4bad-a87c-747384e0a78c" name="Default Changelist" comment="init algorithm storehouse">
+      <change afterPath="$PROJECT_DIR$/algorithm/algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/LeetCodeContest/Code_270_2021_12_05/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/LeetCodeContest/Code_270_2021_12_05/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/LeetCodeContest/Code_270_2021_12_05/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/LeetCodeContest/Code_270_2021_12_05/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ideaProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCodeContest/Code_270_2021_12_05/Main1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCodeContest/Code_270_2021_12_05/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCodeContest/Code_270_2021_12_05/Main3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCodeContest/Code_270_2021_12_05/Main4.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/hqt6158/Algorithm" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="21fbHdzZkBeHYhjaotkinAuMB5h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b46b6660-5bc0-4bad-a87c-747384e0a78c" name="Default Changelist" comment="" />
+      <created>1638335006076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638335006076</updated>
+      <workItem from="1638335007463" duration="2355000" />
+      <workItem from="1638337578357" duration="533000" />
+    </task>
+    <task id="LOCAL-00001" summary="init algorithm storehouse">
+      <created>1638336785654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638336785654</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init algorithm storehouse" />
+    <option name="LAST_COMMIT_MESSAGE" value="init algorithm storehouse" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
