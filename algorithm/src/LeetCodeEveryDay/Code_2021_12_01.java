@@ -46,7 +46,6 @@ public class Code_2021_12_01 {
                 count++;
                 ans=Math.max(ans,count);
             }else {
-
                 count=1;
             }
         }
