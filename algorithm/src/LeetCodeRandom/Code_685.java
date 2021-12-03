@@ -55,7 +55,6 @@ public class Code_685 {
             int jRoot = find(j);
             if (iRoot != jRoot) parent[iRoot] = jRoot;
         }
-
         //是否同一集合
         public boolean same(int i, int j) {
             return find(i) == find(j);
