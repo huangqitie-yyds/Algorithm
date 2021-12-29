@@ -23,8 +23,4 @@ public class Code_753 {
         }
         return builder.toString();
     }
-
-    public static void main(String[] args) {
-        System.out.println(crackSafe(3, 4));
-    }
 }

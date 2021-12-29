@@ -33,14 +33,12 @@ public class Code_685 {
     //并查集
     public class UnionFind {
         int[] parent;
-
         public UnionFind(int n) {
             parent = new int[n];
             for (int i = 0; i < n; i++) {
                 parent[i] = i;
             }
         }
-
         //寻找根节点加上路径压缩
         public int find(int i) {
             if (i != parent[i]) {
@@ -48,7 +46,6 @@ public class Code_685 {
             }
             return parent[i];
         }
-
         //联合
         public void union(int i, int j) {
             int iRoot = find(i);
