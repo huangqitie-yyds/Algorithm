@@ -7,15 +7,17 @@ public class Code_719 {
         Arrays.sort(nums);
         int n = nums.length;
         int left = 0, right = nums[n - 1] - nums[0];
-        while (left < right) {
+        int ans = 0;
+        while (left <= right) {
             int mid = left + ((right - left) >> 1);
             if (getCount1(mid, nums) < k) {
                 left = mid + 1;
             } else {
-                right = mid;
+                right = mid - 1;
+                ans = mid;
             }
         }
-        return left;
+        return ans;
     }
 
     //这个方法尤其注意，统计小于dis的数对数目

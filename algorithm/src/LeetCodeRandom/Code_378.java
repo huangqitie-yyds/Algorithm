@@ -26,15 +26,17 @@ public class Code_378 {
         int n = matrix.length;
         int left = matrix[0][0];
         int right = matrix[n - 1][n - 1];
-        while (left < right) {
+        int ans = 0;
+        while (left <= right) {
             int mid = left + ((right - left) >> 1);
             if (check(matrix, mid, k, n)) {
-                right = mid;
+                right = mid - 1;
+                ans = mid;
             } else {
                 left = mid + 1;
             }
         }
-        return left;
+        return ans;
     }
 
     public static boolean check(int[][] matrix, int mid, int k, int n) {
@@ -51,6 +53,7 @@ public class Code_378 {
         }
         return num >= k;
     }
+
     public static int kthSmallest3(int[][] matrix, int k) {
         //Top(K)问题
         //时间复杂度O(n^2*logk)
