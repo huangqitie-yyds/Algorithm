@@ -18,6 +18,12 @@ public class Manacher {
         int center = -1;
         //原串取得最大长度的开始位置
         int begin = -1;
+        //时间复杂度分析
+        //r最大值是str的长度，i最大值也是str的长度
+        //每次循环i和r必然有一个值增大不会回退，所以时间复杂度是O(n)
+        //1.当pArray[2*c-i]<r-i时，while进入一次直接break，下次i自增
+        //2.当pArray[2*c-i]>r-i时，while进入一次直接break，下次i自增
+        //3.当pArray[2*c-i]==r-i时，进入while循环，r必然增加
         for (int i = 0; i < str.length; i++) {
             pArray[i] = r > i ? Math.min(pArray[2 * c - i], r - i) : 1;
             while (i + pArray[i] < str.length && i - pArray[i] >= 0) {
