@@ -89,7 +89,6 @@ public class Code_5 {
         begin = center - (max - 1) / 2;
         return s.substring(begin, begin + max);
     }
-
     private char[] manacherString(String s) {
         char[] str = s.toCharArray();
         char[] ans = new char[2 * str.length + 1];
