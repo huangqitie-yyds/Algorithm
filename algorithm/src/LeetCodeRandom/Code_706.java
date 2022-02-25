@@ -1,7 +1,5 @@
 package LeetCodeRandom;
 
-import ClassicAlgorithm.MorrisTraversal.Node;
-
 import java.util.Iterator;
 import java.util.LinkedList;
 
