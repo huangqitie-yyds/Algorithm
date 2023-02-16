@@ -20,7 +20,7 @@ public class Code_1604 {
             int minute = (time.charAt(3) - '0') * 10 + (time.charAt(4) - '0');
             map.get(name).add(hour * 60 + minute);
         }
-        List<String> res = new ArrayList<String>();
+        List<String> res = new ArrayList<>();
         Set<String> keySet = map.keySet();
         for (String name : keySet) {
             List<Integer> list = map.get(name);
